@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Galindo&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Marck+Script&display=swap');
 :root {
   --cor-de-fundo: #000002;
   --verde: #6FFF57;
@@ -10,11 +9,15 @@
   --cor--vermelha:#FF0000;
   --cor-amarela:#FFFF00;
   --cor-azul:#0000FF;
+  --cor-preta:#000000;
+  --cor-rosa:#FF1493;
+  --cor-azul-cclara:#00FFFF;
+  --cor-azil-clara-2:#B0E0E6;
 }
 
 body {
   background-color: var(--cor-de-fundo);
-  color: var(--cor-amarela);
+  color: var(--branco);
   font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -35,13 +38,13 @@ body {
 }
 
 .titulo-principal span {
-  color: var(--cor-amarela);
+  color: var(--cor-azul);
 }
 
 .botao {
   font-family: "Crakra Petch", sans-serif;
-  background-color: var(--botao-inativo);
-  color: var(--cor-azul);
+  background-color: var(--cor-azul-cclara);
+  color: var(--cor-preta);
   display: flex;
   justify-content: center;
   padding: 1em;
@@ -49,8 +52,8 @@ body {
   align-items: center;
   width: 100%;
   border-bottom: 4px solid var(--botao-ativo);
-  border-left: 2px solid var(--botao-ativo);
-  border-right: 2px solid var(--botao-ativo);
+  border-left: 2px solid var(--branco);
+  border-right: 2px solid var(--branco);
   border-top: none;
 
 
@@ -67,8 +70,8 @@ body {
     }
 
     .ativo{
-      background-color: var(--botao-ativo);
-      border-bottom: 4px solid var(--cor--vermelha);
+      background-color: var(--cor-azil-clara-2);
+      border-bottom: 4px solid var(--branco);
       }
      
       .abas-textos{
@@ -92,7 +95,7 @@ body {
 }
 .aba-conteudo-titulo-secundario{
   text-align: center;
- color: var(--cor--vermelha);
+ color: var(--cor-azul-cclara);
   text-transform: uppercase;
 }
 .contador{
@@ -111,7 +114,7 @@ body {
   margin: 0;
 }
 .contador-digito-texto{
-  color: var(--cor--vermelha);
+  color: var(--cor-de-fundo);
   font-size: 20px;
   margin: 0;
 }
